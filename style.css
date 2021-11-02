@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size:15px;
+}
+.main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.col1{
+    background-color: hsl(31, 77%, 52%);
+    width:200px;
+    padding:30px; 
+    height: auto;
+}
+.col2{
+    background-color: hsl(184, 100%, 22%);
+    padding:30px;
+    width:200px;
+    height: auto;
+}
+.col3{
+    background-color: hsl(179, 100%, 13%);
+    padding:30px;
+    width:200px;
+    height: auto;
+}
+.intro{
+    padding-top:20px;
+    padding-bottom:20px;
+    color: hsl(0, 0%, 95%);
+    font-family:Big Shoulders Display;
+    font-weight: 700;
+    font-size:35px;
+}
+.brief{
+    font-size:18px;
+      font-family:Lexend Deca;
+      font-weight:500;
+      color:hsla(0, 0%, 100%, 0.75);
+      line-height: 1.6;
+      text-align:start;
+      padding-bottom:100px;
+}
+.l1{
+    color:hsl(31, 77%, 52%);
+}
+.l2{
+    color:hsl(184, 100%, 22%);
+}
+.l3{
+    color:hsl(179, 100%, 13%);
+}
+a{
+    background:hsl(0, 0%, 95%);
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight:700;
+    font-size:16px;
+}
+a:hover{
+    background-color:gray ;
+}
+@media (min-width: 100px) and (max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+}
