@@ -45,14 +45,28 @@ body{
 }
 .l1{
     color:hsl(31, 77%, 52%);
+    background:hsl(0, 0%, 95%);
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight:700;
+    font-size:16px;
 }
 .l2{
     color:hsl(184, 100%, 22%);
+    background:hsl(0, 0%, 95%);
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight:700;
+    font-size:16px;
 }
 .l3{
     color:hsl(179, 100%, 13%);
-}
-a{
     background:hsl(0, 0%, 95%);
     padding:10px;
     padding-left:20px;
